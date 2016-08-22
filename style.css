@@ -1,0 +1,330 @@
+.wrapper{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 13px;
+	letter-spacing: -0.025em;
+}
+
+p{
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+/* ---------- top ----------------------------------------*/
+#top{ 					/* ustawienia całej belki nagłówka - tło czarne po całości - width: auto */
+	width: auto;
+	height: 94px;
+	background-color: black;
+	border-bottom: 12px solid #666666;
+}
+
+#top-middle{			/* wyśrodkowanie zawartości nagłówka */
+	margin: 0 auto;
+	width: 1105px;
+}
+
+#logo, #nav {
+	margin-top: 14px;			/* wyśrodkowanie w pionie logo i nawigacji */
+	margin-bottom: 13px;
+	height: 67px;
+	float: left;
+}
+
+#logo{
+	width: 241px;
+	}
+
+#nav{
+	border-left: 1px solid #454545;
+	font-size: 12px;
+}
+
+#nav ul{  
+	 margin: 0;  
+	 padding-left: 34px;  
+}  
+#nav li{  
+	 list-style-type: none; 
+}
+ 
+#nav ul li a{
+	color: #b1b0b0;			/* kolor czcionki inny niż domyślny dla linków  */
+}
+  
+#nav ul li a:hover{
+	color: white;
+}
+  
+.lang {
+	padding: 5px 7px;
+	float: right;
+	font-size: 0.7em;
+} 
+
+.lang a, .footer-item a{
+	color: #b1b0b0;
+}
+
+.lang-active, .lang:hover{
+	background-color: #828282;
+}
+
+.lang-active a , .lang:hover a{
+	color: black;
+}
+
+/* ---------- content ----------------------------------------*/
+
+#content{
+	margin: 0 auto;		/* wyśrodkowanie całego contentu (wszystko na środku bez nagłówka i stopki) */
+	padding: 0;
+	width: 1064px;
+	height: 1718px;
+	position: relative;
+}
+
+hr{
+	margin: 0;
+	border: 0;
+    height: 1px;
+	background: #d6d8da;	
+	position: absolute;	
+}
+
+#hr1 { 
+	width: 1078px;		/* pierwsza linia jest dłuższa */
+    top: 63px;
+	left: -12px;			/* pierwsza linia wychodzi przed content */
+}
+
+#hr2, #hr3{
+	width: 1064px;
+}
+
+#hr2 { 
+	top: 229px;
+}
+
+#hr3 { 
+	top: 532px;   
+}
+
+#cross{				/* obrazek z krzyżykiem */
+	width: 54px;
+	height: 54px;
+	position: absolute;
+	left: 1066px;
+	top: 36px;
+}
+
+.magenta {
+	padding-left: 8px;
+	font-family: 'News Cycle', arial, sans-serif;
+	font-size: 50px;
+	color: #9e2b66;
+}
+/*---------- IG Challenge! --------------*/
+#one{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	height: 142px;
+	line-height: 30.74px;
+	padding-top: 87px;
+}
+
+.subhead{
+	font-size: 25px;
+	padding: 10px;
+}
+
+/*---------- Jeśli chcesz + Co na Ciebie czeka --------------*/
+.two{
+	width: 525px;
+	height: 271px;
+	padding-top: 32px;
+	padding-left: 7px;
+	font-size: 13px;
+	float: left;			/* wyrównanie dwóch kolumn (divów) */
+}
+
+.noto_bold{				/* Jeśli chcesz, Zgłoś się, Co na Ciebie czeka?, Co zrobić by wziąć udział w stażu? (osobny link do czcionki z google fonts w meta)*/
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+	padding-top: 32px;
+}
+
+.two ul{
+	margin-top: 8px;
+	margin-bottom: 26px;
+	
+}
+
+.two ul li{					/* ustawienie kolorowych kropek, wielkość kropki -> font-size */
+	color: #9e2b66;
+    list-style-type: disc;
+	font-size: 18px;
+    line-height: 20px; 	/* odległość między wierszami */
+}
+
+.two ul li span{			/* ustawienie czarnego tekstu w liście ul */
+	margin-left: -6px;	/* żeby tekst był bliżej kropek */
+    color: black;
+	font-size: 13px;		/* nadpisanie font-size z .two ul li (dla kropek) */
+}
+
+.another{    						/*--- Zgłoś się! (tylko to) - ustawienie odstępów ---*/
+	display: block;
+	margin-top: 32px;
+	margin-bottom: 13px;
+	padding: 0;
+}
+
+/*---------- Podejmij IG Challenge - wypuść pierwsze kody za płoty --------------*/
+#three{
+	height: 701px;
+	padding-top: 26px;
+	clear: both;			/* powrót do stanu normalnego po float left dla dwóch kolumn (divów) wyżej */
+	line-height: 33px;
+	position: relative;
+}
+
+.text{ 							/* Pobierz materiały i dowiedz się... */
+	padding-top: 15px;
+	padding-left: 7px;
+}
+
+#screen{
+	position: absolute;
+	top: 165px;
+	left: 173px;;
+}
+
+#pobierz{				/* Pobierz materiały - link */
+	position: absolute;
+	top: 305px;
+	left: 779px;;
+}
+
+/*---------- Formularz --------------*/
+#form{
+	width: 969px;
+	height: 397px;
+	padding-top: 36px;
+	padding-left: 51px;
+	padding-right: 44px;
+	background-color: #efefef;
+}
+
+legend{
+	padding: 0 0 27px 0;
+	font-size: 25px;
+}
+
+fieldset{
+	border: none;
+}
+
+#table1 td{
+	padding: 0 38px 0 0;	
+}
+
+#table1 input, #table2 input{
+	height:32px;
+	border: 1px solid #d5d5d5;
+}
+#table1 input{
+	margin-bottom: 14px;
+	width: 201px;
+	height:32px;
+}
+
+#table2{
+	padding-top: 31px;
+}
+
+#table2 td{
+	padding: 0 40px 2px 0;
+}
+
+#kierunek{
+	width: 272px;
+}
+
+#rok{
+	width: 128px;
+}
+
+#zgoda{						/* checkbox zgoda */
+	margin-top: 41px;
+}
+
+#zgoda_text{				/* Wyrażam zgodę na... */
+	font-size: 12px;
+}
+
+#tresc{						/* link 'cała treść' */
+	color: #ff7a03;
+	text-decoration: underline;
+}
+
+#submit_button{				/* Wyślij zgłoszenie */
+	width: 206px;
+	height: 47px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+	font-size: 21px;
+	color: white;
+	background-color: #ff7a03;
+	border: none;
+	position: absolute;
+	bottom: 53px;
+	right: 44px;
+}
+/*---------------------- Stopka --------------------*/
+#footer{
+	width: auto;
+	height: 73px;
+	background-color: black;
+	font-size: 14px;
+	color: #b1b0b0;
+}
+
+#footer_middle{		/*żeby wyśrodkować w poziomie stopkę */
+	margin: 0 auto;
+	width: 1132px;
+}
+
+#footer_box{			/* żeby wyśrodkować w pionie divy footer_item */
+	padding-top: 24px;	
+}
+
+.footer-item{
+	padding: 0px 27px;
+	height: 27px;
+	float: left;
+	border-left: 1px solid #454545;
+	display: table;			/* żeby wyśrodkować w pionie spany tekstowe Infinity Group. Ready to deliver itd. */
+}
+
+.footer-item:first-child, .footer-item:last-child{		/* brak obramowania dla pierwszego i ostatniego dziecka */
+	border: none;
+}
+
+.footer-item:last-child{		/* odstęp między dołacz do nas a copyright Infinity Group (przyciąganie copyright do prawej)*/
+	float: right;
+}
+
+.footer-item span{			/* wyśrodkowanie w pionie tekstów Infinity Group. Ready to deliver itd. */
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.footer-item img{				/* odstęp między ikonkami a tekstami */
+	padding-right: 10px;
+}
+
+.footer_bold{
+	font-weight: 700;
+}
+
